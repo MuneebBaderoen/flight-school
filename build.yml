@@ -6,6 +6,8 @@ image_resource:
     repository: ruby
     tag: 2.4.1
 
+
+
 inputs:
 - name: app
 
