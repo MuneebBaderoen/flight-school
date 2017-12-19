@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  fly:
+    build: .
+    volumes:
+      - .:/app
+
+networks:
+  default:
+    external:
+      name: concourse_default
